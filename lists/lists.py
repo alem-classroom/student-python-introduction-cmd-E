@@ -12,12 +12,15 @@ def delete_elem_from_list(list, index = -1):
 
 def count_elements_in_list(list, x):
     # count elements in the list that are equal to x and return the count
-    return list.count(x)
+    occurences = list.count(x)
+    return occurences
 
 def sort_list(list):
     # return sorted list
-    return list.sort()
+    sorted = list.sort()
+    return sorted
 
 def reverse(list):
     # return reversed list
-    return list.reverse()
+    reversed = list.reverse()
+    return reversed

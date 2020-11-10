@@ -27,6 +27,7 @@ def remove_elem_if_exists(set, elem):
     # remove elem from set if it exists, and return the set
     if elem in set:
         set.discard(elem)
+        return set
     else:
         return set
 

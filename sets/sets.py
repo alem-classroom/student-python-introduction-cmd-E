@@ -25,7 +25,10 @@ def add_elem_to_set(set, elem):
 
 def remove_elem_if_exists(set, elem):
     # remove elem from set if it exists, and return the set
-    return set.discard(elem)
+    if elem in set:
+        set.discard(elem)
+    else:
+        return set
 
 def delete_first_element(set):
     # delete first elemenent of set
